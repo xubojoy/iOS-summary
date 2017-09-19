@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+#use_frameworks!个别需要用到它，比如reactiveCocoa
+
+target 'ATTA' do
+  pod 'AFNetworking', '~> 3.1.0'
+  pod 'YTKNetwork', '~> 2.0.3'
+  pod 'RDVTabBarController', '~> 1.1.9'
+end
